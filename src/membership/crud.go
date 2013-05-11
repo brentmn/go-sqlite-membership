@@ -16,7 +16,7 @@ func (this *Db) Get(id int64) (Registration, error) {
 	var email string
 	err = stmt.QueryRow(&id).Scan(&id, &email)
 	if err != nil {
-		fmt.Println("error in get function for " + email + " --- " + err.Error())
+		fmt.Println("error in getbyid function for " + email + " --- " + err.Error())
 		return reg, err
 	}
 	fmt.Println("found", id, email)
@@ -36,7 +36,7 @@ func (this *Db) GetByEmail(email string) (Registration, error) {
 	var id int64
 	err = stmt.QueryRow(&id).Scan(&id, &email)
 	if err != nil {
-		fmt.Println("error in get function for " + email + " --- " + err.Error())
+		fmt.Println("\nerror in getbyemail function for " + email + " --- " + err.Error())
 		return reg, err
 	}
 	fmt.Println("found", id, email)
@@ -87,6 +87,13 @@ func (this *Db) Create(r *Registration) (*Registration, error) {
 	defer stmt.Close()
 
 	_, err = stmt.Exec(nil, r.Email, r.Password)
+
+	if err != nil {
+		fmt.Println("COULD NOT CREATE user -- " + r.Email + " -- error: " + err.Error())
+	} else {
+		fmt.Println("CREATED user -- " + r.Email)
+	}
+
 	tx.Commit()
 
 	r.Password = ""

@@ -28,7 +28,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	fmt.Printf("referrer: \"%s\"", ref)
 
-	db := Db{"brent", nil}
+	db := Db{ref, nil}
 
 	err := db.sCheck()
 
@@ -56,9 +56,11 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 		if id == 0 {
 			err = db.List()
-			serveError(w, err.Error())
+			if err != nil {
+				serveError(w, err.Error())
+				return
+			}
 		} else {
-
 			r, err := db.Get(id)
 
 			if err != nil {
@@ -83,6 +85,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			return
 		}
 
+		r.Password = Encrypt(r.Password)
+
 		r, err = db.Create(r)
 
 		if err != nil {
@@ -104,6 +108,8 @@ func handler(w http.ResponseWriter, r *http.Request) {
 			serveError(w, err.Error())
 			return
 		}
+
+		r.Password = Encrypt(r.Password)
 
 		r, err = db.Update(r)
 
