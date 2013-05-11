@@ -5,8 +5,6 @@ import (
 )
 
 func Encrypt(p string) string {
-	// generate a random salt with 10 rounds of complexity
-	//salt, _ := bcrypt.Salt()
 	hash, _ := bcrypt.Hash(p)
 	return hash
 }
