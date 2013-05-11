@@ -61,7 +61,7 @@ func (this *Db) List() error {
 	}
 
 	return errors.New("haven't implemented list of registration")
-	//TODO: return set of registration on list
+	//TODO: return set of registration
 
 }
 func (this *Db) Create(r *Registration) (*Registration, error) {
