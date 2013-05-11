@@ -1,0 +1,265 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ha",
+				"HandleFunc	 ƒ"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"Con",
+				"Configuration	configuration ν"
+			],
+			[
+				"st",
+				"staticHandler	 ƒ"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"Prin",
+				"Printf	 ƒ"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "membership/app.go",
+			"settings":
+			{
+				"buffer_size": 2494,
+				"line_ending": "Unix",
+				"name": "package main"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"gosublime",
+				"GoSublime: Run build command"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 259.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/brent/Projects/normal.io/src/normal.io/templates/public_layout.html",
+		"/Users/brent/Projects/normal.io/src/normal.io/static/assets/css/main.css",
+		"/Users/brent/Projects/normal.io/src/normal.io/templates/index.html",
+		"/Users/brent/Projects/normal.io/src/client/index.html",
+		"/Users/brent/Projects/normal.io/src/normal.io/routes.go",
+		"/Users/brent/Projects/normal.io/src/normal.io/home/http.go",
+		"/Users/brent/Projects/normal.io/src/normal.io/home/home.go",
+		"/Users/brent/Projects/normal.io/src/normal.io/home/about.go",
+		"/Users/brent/Projects/normal.io/src/client/index2.html",
+		"/Users/brent/Projects/normal.io/client/static/css/site.css",
+		"/Users/brent/Projects/normal.io/home/http.go",
+		"/Users/brent/Projects/normal.io/home/about.go",
+		"/Users/brent/Projects/normal.io/home/home.go",
+		"/Users/brent/Projects/normal.io/http.go",
+		"/Users/brent/Projects/normal.io/src/normal.io/client/index.html",
+		"/Users/brent/Projects/normal.io/src/normal.io/client/index2.html",
+		"/Users/brent/Projects/normal.io/src/normal.io/client/robots.txt",
+		"/Users/brent/Projects/normal.io/src/normal.io/normal.io.sublime-project",
+		"/Users/brent/Projects/ewe.io/load",
+		"/Users/brent/Projects/normal.io/client/index.html",
+		"/Users/brent/Desktop/gogetgit/repository.go",
+		"/Users/brent/Desktop/gogetgit/app.go",
+		"/Users/brent/Desktop/gogetgit/norm.sublime-project",
+		"/Users/brent/Desktop/go get git/repository.go",
+		"/Users/brent/Desktop/go get git/app.go",
+		"/Users/brent/Library/Application Support/Sublime Text 2/Packages/GoSublime/9o.md",
+		"/Users/brent/Library/Application Support/Sublime Text 2/Packages/GoSublime/CHANGELOG.md"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "membership/app.go",
+					"settings":
+					{
+						"buffer_size": 2494,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2056,
+								2056
+							]
+						],
+						"settings":
+						{
+							"auto_name": "package main",
+							"syntax": "Packages/GoSublime/GoSublime.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 176.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.9o:///Users/brent/Desktop/go get git":
+	{
+		"height": 282.0
+	},
+	"output.9o:///Users/brent/Desktop/gogetgit":
+	{
+		"height": 327.0
+	},
+	"output.9o:///Users/brent/Library/Application Support/Sublime Text 2/Packages/GoSublime":
+	{
+		"height": 223.0
+	},
+	"output.9o:///Users/brent/Projects/normal.io/src/normal.io":
+	{
+		"height": 171.0
+	},
+	"output.9o:///Users/brent/Projects/normal.io/src/normal.io/client":
+	{
+		"height": 243.0
+	},
+	"output.9o:///Users/brent/Projects/normal.io/src/normal.io/home":
+	{
+		"height": 218.0
+	},
+	"output.9o:///Users/brent/Projects/nrml/src/membership":
+	{
+		"height": 169.0
+	},
+	"output.MarGo-output":
+	{
+		"height": 136.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/brent/Desktop/gogetgit/app.go"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 245.0,
+	"status_bar_visible": true
+}
